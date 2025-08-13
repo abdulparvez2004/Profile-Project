@@ -1,3 +1,3 @@
-#This repo is actually created for my Profile Info.<br>
+#This repo is actually created for my Profile Info.
 In this i added my Education Details.<br>
 And also added my Project, Skills, Contact etc.
