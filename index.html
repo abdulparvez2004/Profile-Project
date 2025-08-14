@@ -7,28 +7,28 @@
     <title>Profile</title>
 </head>
 <body>
-    <header>
-        <nav>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#">Welcome To My Profile</a></div>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li></li><a href="#about">About</a></li>
-                <li></li><a href="#skills">Skills</a></li>
-                <li></li><a href="#contact">Contact</a></li>
-                <li></li><a href="#project">Projects</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
     <section id="home">
-        <img src="images/par.jpg" height="200">
-        <h2>I'm MOHD ABDUL PARVEZ</h2>
+        <img id="img1" src="images/par.jpg" height="200">
+        <h2 style="font-size: 30px;">I'm MOHD ABDUL PARVEZ</h2>
         <pre> I’m a 3rd-year Bachelor of Engineering student in Computer Science Engineering 
 with a specialization in Artificial Intelligence & Machine Learning at Lords Institute of Engineering and Technology.
 Skilled in Python development, SQL, HTML, CSS, Java, and React.js, I enjoy building efficient and user-friendly solutions.
 I’m currently expanding my expertise in Data Science, working on projects that combine analytics, programming, and machine learning to solve real-world problems.</pre>
-<a href="project">View My Work</a>
+<a href="#project">View My Work</a>
     </section>
     <section id="about">
-        <h3>About Me</h3>
+        <h3 style="font-size: 30px; text-decoration: underline #3E3F29;">About Me</h3>
         <pre>I'm a passionate front-end developer with skills HTML, CSS, JAVASCRIPT.
 I love building user-friendly UI for better understanding.
 I'm also working on DATA SCIENCE To become a proficient Data Scientist capable of
@@ -39,8 +39,8 @@ I'm also working on DATA SCIENCE To become a proficient Data Scientist capable o
         <a href="https://www.linkedin.com/in/abdul-parvez2004/"><img src="https://up.yimg.com/ib/th/id/OIP.Cn9SAHCmTy8MEaixr8bqpAHaHa?pid=Api&rs=1&c=1&qlt=95&w=121&h=121" alt="linkedin" height="40"></a>
     </section>
     <section id="skills">
-        <h3>My Skills</h3>
-        <ul>
+        <h3 style="text-align: center; font-size:30px;text-decoration: underline #3E3F29;">My Skills</h3>
+        <ul >
             <li>HTML</li>
             <li>CSS</li>
             <li>JAVASCRIPT</li>
@@ -51,7 +51,7 @@ I'm also working on DATA SCIENCE To become a proficient Data Scientist capable o
         </ul>
     </section>
     <section id="project">
-        <h3>My Projects</h3>
+        <h3 style="font-size: 30px;text-decoration: underline #3E3F29;">My Projects</h3>
         <pre>I really doing well to build my project and my best project is Student Registration-Form.
 Student Registration-Form is a form to get the details of the students.
 It is basically design for collage management to access the student data.
@@ -59,8 +59,8 @@ It is basically design for collage management to access the student data.
         </pre>
     </section>
     <section id="contact">
-        <h3>Contact Me</h3>
-        <p>Have a project in your mind? Let's Talk</p>
+        <h3 style="font-size: 30px;text-decoration: underline #3E3F29">Contact Me</h3>
+        <p style="font-size: 20px; color: #3E3F29;font-weight: bold;">Have a project in your mind? Let's Talk</p>
         <form action="mailto:mohdabulparvez470@gmail.com" method="post" enctype="text/plain">
             <input type="text" name="name" placeholder="Your Name" required><br><br>
             <input type="email" name="email" placeholder="Your Email" required><br><br>
