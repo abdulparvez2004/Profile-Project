@@ -21,7 +21,7 @@ body {
     flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
 .logo a {
-    font-size: 35px;
+    font-size: auto;
     font-weight: 600;
     color: #3E3F29;
 }
